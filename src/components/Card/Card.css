@@ -1,0 +1,65 @@
+.Card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.card{
+    width: 25rem;
+    height: 35rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.card img{
+    width: 70%;
+    margin-left: 3rem;
+}
+
+.card h3{
+    color: rgb(18, 147, 198);
+}
+
+.card button{
+    cursor: pointer;
+    width: 9vw;
+    padding: 0.5rem;
+    border-radius: 15px;
+    border: none;
+    background-color:rgb(18, 147, 198);
+    color: white; 
+}
+
+.last-image{
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.last-image img{
+    width:40% ;
+    margin-left: 2rem;
+}
+
+.last-card{
+    justify-content: space-between;
+}
+
+.last-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 15px;
+}
+
+hr{
+    margin-top: 5px;
+    color: gray;
+}

@@ -1,0 +1,33 @@
+.input-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.input-container input{
+    padding: 1rem;
+    width: 30%;
+    font-size: medium;
+    outline: none;
+    border-radius: 25px;
+    border: 1px solid black;
+    position: absolute;
+
+}
+
+.input-container button{
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(92, 208, 226);
+    height: 7vh;
+    width: 7vh;
+    position: relative;
+    left: 11rem;
+    margin-top: 0.22rem;
+}
+
+.search-butn{
+    font-size: 1.5rem;
+    color: white;
+}

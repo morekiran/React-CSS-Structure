@@ -1,0 +1,42 @@
+.home-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(20, 39, 75);
+    padding: 1rem;
+    z-index: 10;
+    color: white;
+    font-size: large;
+}
+
+.left{
+    cursor: pointer;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.right{
+    cursor: pointer;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 6rem;
+}
+
+.right li{
+    list-style-type: none;
+    /* margin-top: 1rem; */
+}
+
+.right button{
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 9rem;
+    color: white;
+    background-color:rgb(18, 147, 198);
+
+}

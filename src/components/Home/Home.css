@@ -1,0 +1,40 @@
+
+.middle-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: auto;
+}
+
+.middle-container h1{
+    margin: 1rem 0rem;
+}
+.middle-container input{
+   border-radius: 30px;
+   border: 1px solid gray;
+   padding: 1rem;
+   width: 30%;
+   font-size: medium;
+   position: absolute;
+   margin-top: 1.5rem;
+   /* z-index: 1; */
+}
+
+.middle-container button{
+   border-radius: 30px;
+   border: none;
+   font-size: medium;
+   cursor: pointer;
+   margin-top: 1.9rem;
+   height: 10%;
+   width: 19%;
+   background-color:rgb(18, 147, 198);
+   position: relative;
+   left: 19rem;
+   color: white;
+
+}
+
+img{
+    margin-left: 17rem;
+}
